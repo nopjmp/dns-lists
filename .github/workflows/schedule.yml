@@ -1,4 +1,4 @@
-name: Generate Lists
+name: Cron
 
 on:
   schedule:
