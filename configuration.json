@@ -1,7 +1,7 @@
 {
-  "name": "Lancache-Deanosim",
+  "name": "Lancache-Nopjmp",
   "description": "Redirect gaming domains to lancache to cache the downloads.",
-  "homepage": "https://github.com/deanosim/lancache-adguard",
+  "homepage": "https://github.com/nopjmp/dns-lists",
   "license": "GPLv3",
   "sources": [
     {
