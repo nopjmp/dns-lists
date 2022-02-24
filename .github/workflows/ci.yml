@@ -2,11 +2,17 @@ name: Generate Lists
 
 on:
   workflow_dispatch:
+    inputs:
+      bypass:
+        description: 'Bypass cache-domains check'
+        required: false 
+        type: boolean
   schedule:
     - cron: "0 1 * * *"
 
 jobs:
   check-if-there-are-commits:
+    if: ${{ !bypass }}
     runs-on: ubuntu-latest
     outputs:
       alive: ${{ steps.check.outputs.alive }}
@@ -56,7 +62,7 @@ jobs:
   build:
     needs: check-if-there-are-commits
     runs-on: ubuntu-latest
-    if: ${{ needs.check-if-there-are-commits.outputs.alive == 'true' }}
+    if: ${{ bypass || needs.check-if-there-are-commits.outputs.alive == 'true' }}
 
     steps:
       - uses: actions/checkout@v2
