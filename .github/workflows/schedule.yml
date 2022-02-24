@@ -1,18 +1,11 @@
 name: Generate Lists
 
 on:
-  workflow_dispatch:
-    inputs:
-      bypass:
-        description: 'Bypass cache-domains check'
-        required: false 
-        type: boolean
   schedule:
     - cron: "0 1 * * *"
 
 jobs:
   check-if-there-are-commits:
-    if: ${{ !github.event.inputs.bypass }}
     runs-on: ubuntu-latest
     outputs:
       alive: ${{ steps.check.outputs.alive }}
@@ -59,34 +52,6 @@ jobs:
           fi
           echo "REPO_ACTIVITY=$days" >> $
           echo "::set-output name=days::$days"
-  build:
-    runs-on: ubuntu-latest
+  call-build:
     if: ${{ github.event.inputs.bypass || needs.check-if-there-are-commits.outputs.alive == 'true' }}
-
-    steps:
-      - uses: actions/checkout@v2
-      
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3.0.0
-      - run: sudo npm i -g @adguard/hostlist-compiler
-
-      - name: Checkout cache-domains
-        uses: actions/checkout@v2
-        with:
-          repository: uklans/cache-domains
-          path: .overlay/cache-domains
-
-      - run: |
-          cp cache-domains-config.json .overlay/cache-domains/scripts/config.json
-          pushd .overlay/cache-domains/scripts/
-          ./create-dnsmasq.sh
-          popd
-          cp -R .overlay/cache-domains/scripts/output/dnsmasq output/
-          hostlist-compiler -c configuration.json -o adguard.txt
-
-      - uses: EndBug/add-and-commit@v8 # You can change this to use a specific version.
-        with:
-          add: '*.txt'
-          default_author: github_actions 
-          message: 'generated'
-
+    uses: ./.github/workflows/build.yml
