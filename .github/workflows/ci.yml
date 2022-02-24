@@ -17,7 +17,7 @@ jobs:
       - name: Activity check
         id: "check"
         run: |
-          curl -sL https://api.github.com/repos/uklans/cache-domains/commits?sha=master > $HOME/commit.json
+          curl -sL https://api.github.com/repos/uklans/cache-domains/commits?sha=master | jq -r '.[0]' > $HOME/commit.json
           echo $GITHUB_REPOSITORY
           echo $HOME
           echo $(cat $HOME/commit.json)
