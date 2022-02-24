@@ -60,7 +60,6 @@ jobs:
           echo "REPO_ACTIVITY=$days" >> $
           echo "::set-output name=days::$days"
   build:
-    needs: check-if-there-are-commits
     runs-on: ubuntu-latest
     if: ${{ github.event.inputs.bypass || needs.check-if-there-are-commits.outputs.alive == 'true' }}
 
