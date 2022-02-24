@@ -41,7 +41,7 @@ jobs:
             echo Repository active : $days days
             alive=1
           else
-            echo "[WARNING] Repository not updated : event<${{ github.event_name }}> not allowed to modify stale repository"
+            echo "Skipping update since uklans/cache-domains has not been updated."
           fi
           echo "Alive? $alive"
           if [ $alive -eq 1 ]; then
