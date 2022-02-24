@@ -3,7 +3,7 @@
 ! Description: Redirect gaming domains to lancache to cache the downloads.
 ! Homepage: https://github.com/nopjmp/dns-lists
 ! License: GPLv3
-! Last modified: 2022-02-24T20:13:03.777Z
+! Last modified: 2022-02-24T21:12:47.117Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -11,258 +11,258 @@
 ! Source name: arenanet rules
 ! Source: output/arenanet.conf
 !
-address=/assetcdn.101.arenanetworks.com/192.168.1.100
-address=/assetcdn.102.arenanetworks.com/192.168.1.100
-address=/assetcdn.103.arenanetworks.com/192.168.1.100
-address=/live.patcher.bladeandsoul.com/192.168.1.100
+address=/assetcdn.101.arenanetworks.com/10.13.37.20
+address=/assetcdn.102.arenanetworks.com/10.13.37.20
+address=/assetcdn.103.arenanetworks.com/10.13.37.20
+address=/live.patcher.bladeandsoul.com/10.13.37.20
 
 !
 ! Source name: blizzard rules
 ! Source: output/blizzard.conf
 !
-address=/cdn.blizzard.com/192.168.1.100
-address=/blizzard.vo.llnwd.net/192.168.1.100
-address=/blzddist1-a.akamaihd.net/192.168.1.100
-address=/blzddist2-a.akamaihd.net/192.168.1.100
-address=/blzddist3-a.akamaihd.net/192.168.1.100
-address=/blzddist4-a.akamaihd.net/192.168.1.100
-address=/dist.blizzard.com/192.168.1.100
-address=/dist.blizzard.com.edgesuite.net/192.168.1.100
-address=/edge.blizzard.top.comcast.net/192.168.1.100
-address=/edgecast.blizzard.com/192.168.1.100
-address=/level3.blizzard.com/192.168.1.100
-address=/llnw.blizzard.com/192.168.1.100
-address=/nydus.battle.net/192.168.1.100
+address=/cdn.blizzard.com/10.13.37.20
+address=/blizzard.vo.llnwd.net/10.13.37.20
+address=/blzddist1-a.akamaihd.net/10.13.37.20
+address=/blzddist2-a.akamaihd.net/10.13.37.20
+address=/blzddist3-a.akamaihd.net/10.13.37.20
+address=/blzddist4-a.akamaihd.net/10.13.37.20
+address=/dist.blizzard.com/10.13.37.20
+address=/dist.blizzard.com.edgesuite.net/10.13.37.20
+address=/edge.blizzard.top.comcast.net/10.13.37.20
+address=/edgecast.blizzard.com/10.13.37.20
+address=/level3.blizzard.com/10.13.37.20
+address=/llnw.blizzard.com/10.13.37.20
+address=/nydus.battle.net/10.13.37.20
 
 !
 ! Source name: cityofheroes rules
 ! Source: output/cityofheroes.conf
 !
-address=/cdn-eu1.homecomingservers.com/192.168.1.100
-address=/cdn-na1.homecomingservers.com/192.168.1.100
-address=/cdn-na2.homecomingservers.com/192.168.1.100
-address=/cdn-na3.homecomingservers.com/192.168.1.100
+address=/cdn-eu1.homecomingservers.com/10.13.37.20
+address=/cdn-na1.homecomingservers.com/10.13.37.20
+address=/cdn-na2.homecomingservers.com/10.13.37.20
+address=/cdn-na3.homecomingservers.com/10.13.37.20
 
 !
 ! Source name: daybreak rules
 ! Source: output/daybreak.conf
 !
-address=/pls.patch.daybreakgames.com/192.168.1.100
+address=/pls.patch.daybreakgames.com/10.13.37.20
 
 !
 ! Source name: epicgames rules
 ! Source: output/epicgames.conf
 !
-address=/cdn.unrealengine.com/192.168.1.100
-address=/cdn1.epicgames.com/192.168.1.100
-address=/cdn1.unrealengine.com/192.168.1.100
-address=/cdn2.unrealengine.com/192.168.1.100
-address=/cdn3.unrealengine.com/192.168.1.100
-address=/download.epicgames.com/192.168.1.100
-address=/download2.epicgames.com/192.168.1.100
-address=/download3.epicgames.com/192.168.1.100
-address=/download4.epicgames.com/192.168.1.100
-address=/epicgames-download1.akamaized.net/192.168.1.100
-address=/fastly-download.epicgames.com/192.168.1.100
+address=/cdn.unrealengine.com/10.13.37.20
+address=/cdn1.epicgames.com/10.13.37.20
+address=/cdn1.unrealengine.com/10.13.37.20
+address=/cdn2.unrealengine.com/10.13.37.20
+address=/cdn3.unrealengine.com/10.13.37.20
+address=/download.epicgames.com/10.13.37.20
+address=/download2.epicgames.com/10.13.37.20
+address=/download3.epicgames.com/10.13.37.20
+address=/download4.epicgames.com/10.13.37.20
+address=/epicgames-download1.akamaized.net/10.13.37.20
+address=/fastly-download.epicgames.com/10.13.37.20
 
 !
 ! Source name: frontier rules
 ! Source: output/frontier.conf
 !
-address=/cdn.zaonce.net/192.168.1.100
+address=/cdn.zaonce.net/10.13.37.20
 
 !
 ! Source name: hirez rules
 ! Source: output/hirez.conf
 !
-address=/hirez.http.internapcdn.net/192.168.1.100
+address=/hirez.http.internapcdn.net/10.13.37.20
 
 !
 ! Source name: neverwinter rules
 ! Source: output/neverwinter.conf
 !
-address=/level3.nwhttppatch.crypticstudios.com/192.168.1.100
+address=/level3.nwhttppatch.crypticstudios.com/10.13.37.20
 
 !
 ! Source name: nexusmods rules
 ! Source: output/nexusmods.conf
 !
-address=/filedelivery.nexusmods.com/192.168.1.100
+address=/filedelivery.nexusmods.com/10.13.37.20
 
 !
 ! Source name: nintendo rules
 ! Source: output/nintendo.conf
 !
-address=/hac.lp1.d4c.nintendo.net/192.168.1.100
-address=/hac.lp1.eshop.nintendo.net/192.168.1.100
-address=/wup.eshop.nintendo.net/192.168.1.100
-address=/wup.shop.nintendo.net/192.168.1.100
-address=/ccs.cdn.wup.shop.nintendo.com/192.168.1.100
-address=/ccs.cdn.wup.shop.nintendo.net/192.168.1.100
-address=/ccs.cdn.wup.shop.nintendo.net.edgesuite.net/192.168.1.100
-address=/ecs-lp1.hac.shop.nintendo.net/192.168.1.100
-address=/geisha-wup.cdn.nintendo.net/192.168.1.100
-address=/geisha-wup.cdn.nintendo.net.edgekey.net/192.168.1.100
-address=/idbe-wup.cdn.nintendo.net/192.168.1.100
-address=/idbe-wup.cdn.nintendo.net.edgekey.net/192.168.1.100
-address=/receive-lp1.dg.srv.nintendo.net/192.168.1.100
+address=/hac.lp1.d4c.nintendo.net/10.13.37.20
+address=/hac.lp1.eshop.nintendo.net/10.13.37.20
+address=/wup.eshop.nintendo.net/10.13.37.20
+address=/wup.shop.nintendo.net/10.13.37.20
+address=/ccs.cdn.wup.shop.nintendo.com/10.13.37.20
+address=/ccs.cdn.wup.shop.nintendo.net/10.13.37.20
+address=/ccs.cdn.wup.shop.nintendo.net.edgesuite.net/10.13.37.20
+address=/ecs-lp1.hac.shop.nintendo.net/10.13.37.20
+address=/geisha-wup.cdn.nintendo.net/10.13.37.20
+address=/geisha-wup.cdn.nintendo.net.edgekey.net/10.13.37.20
+address=/idbe-wup.cdn.nintendo.net/10.13.37.20
+address=/idbe-wup.cdn.nintendo.net.edgekey.net/10.13.37.20
+address=/receive-lp1.dg.srv.nintendo.net/10.13.37.20
 
 !
 ! Source name: origin rules
 ! Source: output/origin.conf
 !
-address=/cdn-patch.swtor.com/192.168.1.100
-address=/lvlt.cdn.ea.com/192.168.1.100
-address=/origin-a.akamaihd.net/192.168.1.100
+address=/cdn-patch.swtor.com/10.13.37.20
+address=/lvlt.cdn.ea.com/10.13.37.20
+address=/origin-a.akamaihd.net/10.13.37.20
 
 !
 ! Source name: pathofexile rules
 ! Source: output/pathofexile.conf
 !
-address=/patchcdn.pathofexile.com/192.168.1.100
+address=/patchcdn.pathofexile.com/10.13.37.20
 
 !
 ! Source name: riot rules
 ! Source: output/riot.conf
 !
-address=/dyn.riotcdn.net/192.168.1.100
-address=/l3cdn.riotgames.com/192.168.1.100
-address=/riotgamespatcher-a.akamaihd.net/192.168.1.100
-address=/riotgamespatcher-a.akamaihd.net.edgesuite.net/192.168.1.100
-address=/worldwide.l3cdn.riotgames.com/192.168.1.100
+address=/dyn.riotcdn.net/10.13.37.20
+address=/l3cdn.riotgames.com/10.13.37.20
+address=/riotgamespatcher-a.akamaihd.net/10.13.37.20
+address=/riotgamespatcher-a.akamaihd.net.edgesuite.net/10.13.37.20
+address=/worldwide.l3cdn.riotgames.com/10.13.37.20
 
 !
 ! Source name: rockstar rules
 ! Source: output/rockstar.conf
 !
-address=/patches.rockstargames.com/192.168.1.100
+address=/patches.rockstargames.com/10.13.37.20
 
 !
 ! Source name: sony rules
 ! Source: output/sony.conf
 !
-address=/gs2-ww-prod.psn.akadns.net/192.168.1.100
-address=/gs2.sonycoment.loris-e.llnwd.net/192.168.1.100
-address=/gs2.ww.prod.dl.playstation.net/192.168.1.100
-address=/gs2.ww.prod.dl.playstation.net.edgesuite.net/192.168.1.100
-address=/gs-sec.ww.np.dl.playstation.net/192.168.1.100
-address=/playstation4.sony.akadns.net/192.168.1.100
-address=/pls.patch.station.sony.com/192.168.1.100
-address=/theia.dl.playstation.net/192.168.1.100
-address=/tmdb.np.dl.playstation.net/192.168.1.100
+address=/gs2-ww-prod.psn.akadns.net/10.13.37.20
+address=/gs2.sonycoment.loris-e.llnwd.net/10.13.37.20
+address=/gs2.ww.prod.dl.playstation.net/10.13.37.20
+address=/gs2.ww.prod.dl.playstation.net.edgesuite.net/10.13.37.20
+address=/gs-sec.ww.np.dl.playstation.net/10.13.37.20
+address=/playstation4.sony.akadns.net/10.13.37.20
+address=/pls.patch.station.sony.com/10.13.37.20
+address=/theia.dl.playstation.net/10.13.37.20
+address=/tmdb.np.dl.playstation.net/10.13.37.20
 
 !
 ! Source name: square rules
 ! Source: output/square.conf
 !
-address=/patch-dl.ffxiv.com/192.168.1.100
+address=/patch-dl.ffxiv.com/10.13.37.20
 
 !
 ! Source name: steam rules
 ! Source: output/steam.conf
 !
-address=/akamai.steamstatic.com/192.168.1.100
-address=/cm.steampowered.com/192.168.1.100
-address=/content.steampowered.com/192.168.1.100
-address=/cs.steampowered.com/192.168.1.100
-address=/edgecast.steamstatic.com/192.168.1.100
-address=/hsar.steampowered.com.edgesuite.net/192.168.1.100
-address=/steam-content-dnld-1.apac-1-cdn.cqloud.com/192.168.1.100
-address=/steam-content-dnld-1.eu-c1-cdn.cqloud.com/192.168.1.100
-address=/steam-content-dnld-1.qwilted-cds.cqloud.com/192.168.1.100
-address=/steamcontent.com/192.168.1.100
-address=/cdn.mileweb.cs.steampowered.com.8686c.com/192.168.1.100
-address=/cdn1-sea1.valve.net/192.168.1.100
-address=/cdn2-sea1.valve.net/192.168.1.100
-address=/client-download.steampowered.com/192.168.1.100
-address=/clientconfig.akamai.steamtransparent.com/192.168.1.100
-address=/content-origin.steampowered.com/192.168.1.100
-address=/content1.steampowered.com/192.168.1.100
-address=/content2.steampowered.com/192.168.1.100
-address=/content3.steampowered.com/192.168.1.100
-address=/content4.steampowered.com/192.168.1.100
-address=/content5.steampowered.com/192.168.1.100
-address=/content6.steampowered.com/192.168.1.100
-address=/content7.steampowered.com/192.168.1.100
-address=/content8.steampowered.com/192.168.1.100
-address=/edge.steam-dns-2.top.comcast.net/192.168.1.100
-address=/edge.steam-dns.top.comcast.net/192.168.1.100
-address=/lancache.steamcontent.com/192.168.1.100
-address=/st.dl.bscstorage.net/192.168.1.100
-address=/steam.apac.qtlglb.com/192.168.1.100
-address=/steam.apac.qtlglb.com.mwcloudcdn.com/192.168.1.100
-address=/steam.cdn.on.net/192.168.1.100
-address=/steam.eca.qtlglb.com/192.168.1.100
-address=/steam.ix.asn.au/192.168.1.100
-address=/steam.naeu.qtlglb.com/192.168.1.100
-address=/steamcdn-a.akamaihd.net/192.168.1.100
-address=/steampipe-kr.akamaized.net/192.168.1.100
-address=/steampipe.akamaized.net/192.168.1.100
-address=/update1.csgo.wmsj.cn/192.168.1.100
-address=/update1.dota2.wmsj.cn/192.168.1.100
-address=/update2.csgo.wmsj.cn/192.168.1.100
-address=/update2.dota2.wmsj.cn/192.168.1.100
-address=/update3.csgo.wmsj.cn/192.168.1.100
-address=/update3.dota2.wmsj.cn/192.168.1.100
-address=/update4.csgo.wmsj.cn/192.168.1.100
-address=/update4.dota2.wmsj.cn/192.168.1.100
-address=/update5.csgo.wmsj.cn/192.168.1.100
-address=/update5.dota2.wmsj.cn/192.168.1.100
-address=/update6.csgo.wmsj.cn/192.168.1.100
-address=/update6.dota2.wmsj.cn/192.168.1.100
+address=/akamai.steamstatic.com/10.13.37.20
+address=/cm.steampowered.com/10.13.37.20
+address=/content.steampowered.com/10.13.37.20
+address=/cs.steampowered.com/10.13.37.20
+address=/edgecast.steamstatic.com/10.13.37.20
+address=/hsar.steampowered.com.edgesuite.net/10.13.37.20
+address=/steam-content-dnld-1.apac-1-cdn.cqloud.com/10.13.37.20
+address=/steam-content-dnld-1.eu-c1-cdn.cqloud.com/10.13.37.20
+address=/steam-content-dnld-1.qwilted-cds.cqloud.com/10.13.37.20
+address=/steamcontent.com/10.13.37.20
+address=/cdn.mileweb.cs.steampowered.com.8686c.com/10.13.37.20
+address=/cdn1-sea1.valve.net/10.13.37.20
+address=/cdn2-sea1.valve.net/10.13.37.20
+address=/client-download.steampowered.com/10.13.37.20
+address=/clientconfig.akamai.steamtransparent.com/10.13.37.20
+address=/content-origin.steampowered.com/10.13.37.20
+address=/content1.steampowered.com/10.13.37.20
+address=/content2.steampowered.com/10.13.37.20
+address=/content3.steampowered.com/10.13.37.20
+address=/content4.steampowered.com/10.13.37.20
+address=/content5.steampowered.com/10.13.37.20
+address=/content6.steampowered.com/10.13.37.20
+address=/content7.steampowered.com/10.13.37.20
+address=/content8.steampowered.com/10.13.37.20
+address=/edge.steam-dns-2.top.comcast.net/10.13.37.20
+address=/edge.steam-dns.top.comcast.net/10.13.37.20
+address=/lancache.steamcontent.com/10.13.37.20
+address=/st.dl.bscstorage.net/10.13.37.20
+address=/steam.apac.qtlglb.com/10.13.37.20
+address=/steam.apac.qtlglb.com.mwcloudcdn.com/10.13.37.20
+address=/steam.cdn.on.net/10.13.37.20
+address=/steam.eca.qtlglb.com/10.13.37.20
+address=/steam.ix.asn.au/10.13.37.20
+address=/steam.naeu.qtlglb.com/10.13.37.20
+address=/steamcdn-a.akamaihd.net/10.13.37.20
+address=/steampipe-kr.akamaized.net/10.13.37.20
+address=/steampipe.akamaized.net/10.13.37.20
+address=/update1.csgo.wmsj.cn/10.13.37.20
+address=/update1.dota2.wmsj.cn/10.13.37.20
+address=/update2.csgo.wmsj.cn/10.13.37.20
+address=/update2.dota2.wmsj.cn/10.13.37.20
+address=/update3.csgo.wmsj.cn/10.13.37.20
+address=/update3.dota2.wmsj.cn/10.13.37.20
+address=/update4.csgo.wmsj.cn/10.13.37.20
+address=/update4.dota2.wmsj.cn/10.13.37.20
+address=/update5.csgo.wmsj.cn/10.13.37.20
+address=/update5.dota2.wmsj.cn/10.13.37.20
+address=/update6.csgo.wmsj.cn/10.13.37.20
+address=/update6.dota2.wmsj.cn/10.13.37.20
 
 !
 ! Source name: teso rules
 ! Source: output/teso.conf
 !
-address=/live.patcher.elderscrollsonline.com/192.168.1.100
+address=/live.patcher.elderscrollsonline.com/10.13.37.20
 
 !
 ! Source name: uplay rules
 ! Source: output/uplay.conf
 !
-address=/cdn.ubi.com/192.168.1.100
+address=/cdn.ubi.com/10.13.37.20
 
 !
 ! Source name: warframe rules
 ! Source: output/warframe.conf
 !
-address=/content.warframe.com/192.168.1.100
+address=/content.warframe.com/10.13.37.20
 
 !
 ! Source name: wargaming.net rules
 ! Source: output/wargaming.net.conf
 !
-address=/dl-wot-ak.wargaming.net/192.168.1.100
-address=/dl-wot-cdx.wargaming.net/192.168.1.100
-address=/dl-wot-gc.wargaming.net/192.168.1.100
-address=/dl-wot-se.wargaming.net/192.168.1.100
-address=/dl-wowp-ak.wargaming.net/192.168.1.100
-address=/dl-wowp-cdx.wargaming.net/192.168.1.100
-address=/dl-wowp-gc.wargaming.net/192.168.1.100
-address=/dl-wowp-se.wargaming.net/192.168.1.100
-address=/dl-wows-ak.wargaming.net/192.168.1.100
-address=/dl-wows-cdx.wargaming.net/192.168.1.100
-address=/dl-wows-gc.wargaming.net/192.168.1.100
-address=/dl-wows-se.wargaming.net/192.168.1.100
-address=/dl1.wargaming.net/192.168.1.100
-address=/dl2.wargaming.net/192.168.1.100
-address=/update-v4r4h10x.worldofwarships.com/192.168.1.100
-address=/wg.gcdn.co/192.168.1.100
-address=/wgus-wotasia.wargaming.net/192.168.1.100
-address=/wgusst-eu.wargaming.net/192.168.1.100
-address=/wgusst-na.wargaming.net/192.168.1.100
+address=/dl-wot-ak.wargaming.net/10.13.37.20
+address=/dl-wot-cdx.wargaming.net/10.13.37.20
+address=/dl-wot-gc.wargaming.net/10.13.37.20
+address=/dl-wot-se.wargaming.net/10.13.37.20
+address=/dl-wowp-ak.wargaming.net/10.13.37.20
+address=/dl-wowp-cdx.wargaming.net/10.13.37.20
+address=/dl-wowp-gc.wargaming.net/10.13.37.20
+address=/dl-wowp-se.wargaming.net/10.13.37.20
+address=/dl-wows-ak.wargaming.net/10.13.37.20
+address=/dl-wows-cdx.wargaming.net/10.13.37.20
+address=/dl-wows-gc.wargaming.net/10.13.37.20
+address=/dl-wows-se.wargaming.net/10.13.37.20
+address=/dl1.wargaming.net/10.13.37.20
+address=/dl2.wargaming.net/10.13.37.20
+address=/update-v4r4h10x.worldofwarships.com/10.13.37.20
+address=/wg.gcdn.co/10.13.37.20
+address=/wgus-wotasia.wargaming.net/10.13.37.20
+address=/wgusst-eu.wargaming.net/10.13.37.20
+address=/wgusst-na.wargaming.net/10.13.37.20
 
 !
 ! Source name: xboxlive rules
 ! Source: output/xboxlive.conf
 !
-address=/xboxone.loris.llnwd.net/192.168.1.100
-address=/assets1.xboxlive.com/192.168.1.100
-address=/assets1.xboxlive.com.nsatc.net/192.168.1.100
-address=/assets2.xboxlive.com/192.168.1.100
-address=/d1.xboxlive.com/192.168.1.100
-address=/xbox-mbr.xboxlive.com/192.168.1.100
-address=/xboxone.vo.llnwd.net/192.168.1.100
-address=/xvcf1.xboxlive.com/192.168.1.100
-address=/xvcf2.xboxlive.com/192.168.1.100
+address=/xboxone.loris.llnwd.net/10.13.37.20
+address=/assets1.xboxlive.com/10.13.37.20
+address=/assets1.xboxlive.com.nsatc.net/10.13.37.20
+address=/assets2.xboxlive.com/10.13.37.20
+address=/d1.xboxlive.com/10.13.37.20
+address=/xbox-mbr.xboxlive.com/10.13.37.20
+address=/xboxone.vo.llnwd.net/10.13.37.20
+address=/xvcf1.xboxlive.com/10.13.37.20
+address=/xvcf2.xboxlive.com/10.13.37.20
