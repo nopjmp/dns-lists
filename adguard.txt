@@ -3,7 +3,7 @@
 ! Description: Redirect gaming domains to lancache to cache the downloads.
 ! Homepage: https://github.com/nopjmp/dns-lists
 ! License: GPLv3
-! Last modified: 2022-02-24T21:12:47.117Z
+! Last modified: 2022-02-24T21:23:45.493Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
