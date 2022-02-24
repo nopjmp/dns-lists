@@ -2,10 +2,61 @@ name: Generate Lists
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
 
 jobs:
-  build:
+  check-if-there-are-commits:
     runs-on: ubuntu-latest
+    outputs:
+      alive: ${{ steps.check.outputs.alive }}
+    steps:
+      ### Activity check
+      ### uses GitHub API to check last non-automagic commit in repository
+      ### if it's older than a week, all other steps are skipped
+      - name: Activity check
+        id: "check"
+        run: |
+          curl -sL https://api.github.com/repos/uklans/cache-domains/commits?sha=master > $HOME/commit.json
+          echo $GITHUB_REPOSITORY
+          echo $HOME
+          echo $(cat $HOME/commit.json)
+
+          date="$(jq -r '.commit.author.date' $HOME/commit.json)"
+          echo "Date: $date"
+          timestamp=$(date --utc -d "$date" +%s)
+          echo "Timestamp: $timestamp"
+          echo "Current date: $(date --utc +%s)"
+          echo "Difference between the current date and time of the last commit: $(( ( $(date --utc +%s) - $timestamp ) ))"
+          days=$(( ( $(date --utc +%s) - $timestamp ) / 86400 ))
+          echo "Days: $days"
+
+          alive=0
+
+          echo "Date: $date"
+          echo "timestamp: $timestamp"
+          echo "days: $days"
+
+          if [ $days -lt 1 ]; then
+            echo Repository active : $days days
+            alive=1
+          else
+            echo "[WARNING] Repository not updated : event<${{ github.event_name }}> not allowed to modify stale repository"
+          fi
+          echo "Alive? $alive"
+          if [ $alive -eq 1 ]; then
+            echo "REPO_ALIVE=true" >> $GITHUB_ENV
+            echo "::set-output name=alive::true"
+          else
+            echo "REPO_ALIVE=false" >> $GITHUB_ENV
+            echo "::set-output name=alive::false"
+          fi
+          echo "REPO_ACTIVITY=$days" >> $
+          echo "::set-output name=days::$days"
+  build:
+    needs: check-if-there-are-commits
+    runs-on: ubuntu-latest
+    if: ${{ needs.check-if-there-are-commits.outputs.alive == 'true' }}
 
     steps:
       - uses: actions/checkout@v2
