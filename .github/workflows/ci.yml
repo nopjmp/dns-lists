@@ -12,7 +12,7 @@ on:
 
 jobs:
   check-if-there-are-commits:
-    if: ${{ !bypass }}
+    if: ${{ !github.event.inputs.bypass }}
     runs-on: ubuntu-latest
     outputs:
       alive: ${{ steps.check.outputs.alive }}
@@ -62,7 +62,7 @@ jobs:
   build:
     needs: check-if-there-are-commits
     runs-on: ubuntu-latest
-    if: ${{ bypass || needs.check-if-there-are-commits.outputs.alive == 'true' }}
+    if: ${{ github.event.inputs.bypass || needs.check-if-there-are-commits.outputs.alive == 'true' }}
 
     steps:
       - uses: actions/checkout@v2
